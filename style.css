@@ -1,0 +1,446 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    width: 100%;
+  
+}
+
+.header {
+    height:64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    height:32px;
+    margin-left:24px;
+    display: flex;
+    align-items: center;
+}
+
+.logo h1 {
+    color:darkgrey;
+    font-weight: bold;
+   
+}
+
+.logo h1 span {
+    color:lightgrey;
+    font-weight: 100;
+}
+
+.nav {
+    text-align: right;
+    margin-right:24px;
+}
+
+.nav ul li {
+    margin:16px;
+    list-style: none;
+}
+
+.nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav ul a {
+    text-decoration: none;
+    color:darkgray;
+}
+
+.sectionone {
+    background-color:lightgrey;
+    height: 40rem;
+    display: flex;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    font-size:25px;
+}
+
+.sectionone img {
+    width:60%;
+    margin: 32px 24px;
+}
+
+.sectionone_right {
+    color:#4A4A4A;  
+    margin:24px;
+}
+
+.button {
+    margin-top:8px;
+    margin-bottom: 8px;
+    background-color: #4A4A4A;
+    color:white;
+    width:18rem;
+    padding:17px;
+    outline:none;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.sectiontwo {
+    display: flex;
+    align-items: center;
+}
+
+.part1 {
+    color:#4A4A4A;
+    margin-left:24px;
+    margin-right:24px;
+}
+
+.part1 img {
+    width:60%;  
+    margin-top:32px;
+    margin-bottom: 32px;
+}
+
+.part1 h1{
+    margin-bottom:24px;
+}
+
+.part2 {
+    width:40%;
+    
+}
+
+.part1 site {
+    font-weight: bold;
+}
+
+.part2 {
+    border-left:1px solid lightgrey;
+}
+
+.part2 img {
+    width:35%;
+    height:auto;
+    margin:16px;
+}
+
+.part2 text {
+    width:65%;
+}
+
+.part2 text p {
+    margin-top:8px;
+    margin-bottom: 8px;
+}
+
+.part2 text a {
+    text-decoration: none;
+    color:lightblue;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.sectionthree {
+    background-color: #EAEBEC;
+    height:63rem;
+}
+
+.sectionthree h1 {
+    text-align: center;
+    color:#4A4A4A;
+    padding-top:32px;
+    padding-bottom: 32px;
+}
+
+.photo_graph {
+    margin-left: 72px;
+    margin-right: 72px;
+    display: flex;
+    align-items: center;
+    vertical-align: top;
+}
+   
+
+
+.photo_graph img {
+    width:100%;  
+}
+
+.textsection {
+    margin-top:16px;
+    background-color:white;
+}
+
+.textsection p {
+    margin:8px;
+}
+
+.box {
+    width:30%;  
+    background-color:white;
+    padding-bottom: 24px;
+    margin:16px;
+   
+}
+
+.box h5 {
+    font-size:30px;
+    margin:12px;
+}
+
+.sectionfour {
+    width:100%;
+}
+
+.sectionfour h1 {
+    text-align: center;
+    
+}
+
+.content {
+display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+}
+
+.videosection {
+    margin-left:24px;
+    margin-right:24px;
+ 
+}
+
+.videosection video {
+   width:80%;
+}
+
+.imagesection {
+    width:60%;
+}
+
+.description {
+    width:65%;
+}
+
+.imagesection img {
+    width:35%;
+    margin:16px;
+    height: 35%;
+}
+
+.imagesection .align {
+    display: flex !important;
+   flex-direction: row;
+    background-color: lightgrey;
+}
+
+.imagerow1 {
+    
+    display: flex;
+align-items: center;
+}
+
+.imagerow2 {
+    
+    display: flex;
+align-items: center;
+}
+
+.footer {
+ display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color:lightgray;
+}
+.right ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.right ul li {
+    list-style: none;
+}
+
+.footer .right ul li a {
+   
+    text-decoration: none;
+    color: darkgray;
+    margin: 10px;
+}
+
+.mobileonly_nav {
+    display:none;
+}
+
+@media only screen and (max-width: 600px) { 
+
+    body {
+        width:100%;
+      
+    }
+    
+    .header {
+        width:100%;
+    }
+
+        .header .logo, .nav {
+            display: none;
+        }
+
+       .mobileonly_nav {
+           display: inline;
+           margin:0 auto;
+          display: table;
+           margin:0;
+           width: 100%;
+    
+        }
+    
+    .mobileonly_nav ul li  {
+    list-style: none;
+        display: table-cell;
+       width:225px;
+        
+    }
+
+    .sectionone {
+       height:47rem;
+        display: block;
+    }
+
+    .sectionone img {
+        margin: 0;
+        width: 100%;
+    }
+    
+    .sectionone_right h1 {
+        margin-top:32px;
+    }
+    .sectionone_right .button {
+        margin-bottom:32px;
+    }
+    
+    .sectiontwo .part1 {
+        display: none;
+    }
+   
+    
+      .sectiontwo .part2   {
+        width: 100%;
+    }
+    
+     .sectiontwo .part2 .row  {
+         display: inline-block;
+         margin:16px 16px;
+    }
+    
+     .sectiontwo .part2 .row img {
+        width: 100%;
+         height:150px;
+    
+    }
+    
+     .sectiontwo .part2 .row .text  {
+         margin-left:32px;
+         line-height: 20px;
+         
+    }
+
+     .sectiontwo .part2 .row .text h4 {
+         margin-top:16px;
+       font-size: 30px;
+    font-weight: bold;
+    
+    }
+    
+     .sectiontwo .part2 .row .text p {
+       font-size: 25px;
+    
+    }
+    
+       .sectiontwo .part2 .row .text a {
+      font-size: 20px;
+           text-decoration: none;
+           color:lightskyblue;
+    
+    }
+    
+    
+     .sectionthree  {
+       height:37rem;
+      width:100%;
+          margin: 0;
+          
+    }
+    
+      .sectionthree h1  {
+      
+          padding-top:16px !important; 
+           padding-bottom:16px !important; 
+          
+    }
+    
+    .sectionthree .photo_graph  {
+       
+         display: block;
+        margin-left:0px;
+    margin-right: 0px;
+   
+    }
+
+    .sectionthree .photo_graph .box  {
+        background-color: lightgray;
+         width:90%;
+        margin: 0 auto;
+        padding-bottom: 0;
+        
+        
+        
+    }
+    .sectionthree .photo_graph .box img {
+        display: none;
+    }
+    
+    .sectionthree .photo_graph .box .textsection  {
+       background-color: lightgray;
+        
+    }
+    .sectionthree .photo_graph .box .textsection p {
+        display: none;
+    }
+    
+    .sectionthree .photo_graph .box .textsection h5 {
+        font-size:20px;
+        color:darkgrey;
+          background-color: lightgray;
+        padding: 16px;
+        margin:8px;
+    }
+    
+    .sectionfour .content .imagesection {
+        display: none;
+    }
+    
+     .sectionfour .content .videosection {
+        width: 100%;
+         margin-left:0;
+         margin-right: 0;
+    }
+    
+      .sectionfour .content .videosection video {
+      width: 100%;  
+    }
+    
+     .sectionfour .content .videosection h3 {
+     display: none;
+    }
+    .sectionfour .content .videosection p {
+     display: none;
+    }
+    
+    
+    .footer .right {
+        display: none;
+    }
+}
